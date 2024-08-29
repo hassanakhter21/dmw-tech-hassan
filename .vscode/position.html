@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+      margin: 0;
+    }
+    .container{
+        width: 1000px;
+        heright: 1000px;
+        background-color: brown;
+        font-size: 40px;
+        border: salmon black 2px;
+    }
+    .box{
+    width: 150px;
+    height: 150px;
+    border: 3px grove red;
+    text-align: center;
+    font-size: 40px;
+    display: inline-block;   
+    }
+/* cssposition : static(dafauit) , absolute , relative , fixed , sticky*/
+#box1{
+    position: relative;
+    top: 50px;
+    left: 3px;
+}
+#box2{
+    position: absolute;
+    top: 50px;
+    left: 630px;
+}
+#box3{
+    position: fixed;
+    top: 50px;
+    left: 470px;
+}
+#box4{
+    position: sticky;
+    top: 5px;
+}
+</style>
+</head>
+<body>
+    <div class="contataier">
+               <div class="box" id="box1">relatative</div>
+               <div class="box" id="box"2>sticky</div>
+               <div class="box" id="box"3>absilute</div>
+               <dov class="box" id="box"4>fixed</dov>
+        
+</body>
+</html>
