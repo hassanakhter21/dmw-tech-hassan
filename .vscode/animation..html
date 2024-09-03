@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        width: 100px;
+        height: 100px;
+        background-color: brown;
+        transition: width 2s , height 4s , transform 2s;
+    }
+    div:hover{
+        width: 300px;
+        height: 300px;
+        transform: rotate{180deg};
+    }
+    @keyframes first{
+   /* form {background-color: purple;}
+    to {background-color: pink;} */
+    0% {background-color: purple; left: 0px; top: 0px;}
+    25% {background-color: aqua; left: 200px; top:200px;}
+    50% {background-color: blue; left: 200px; top:200px;}
+    75% {background-color: violet; left: 0px; top: 200;}
+    100% {background-color: turquoise; left: 0px; top: 0px;}
+}
+</style>
+<body>
+   <div></div>
+</body>
+</html>
