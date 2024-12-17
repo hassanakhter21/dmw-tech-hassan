@@ -8,48 +8,35 @@
 </head>
 <body>
     
-<div>
-    <h1>JQuery Intro !!</h1>
+    <div>
+        <h1>Jquery Revision</h1>
     </div>
 
-    <button id="hidebtn">Hide</button>
-    <button id="showbtn">Show</button>
-    <button id="togglebtn">Toggle</button>
+<ul>
 
-    <button id="slideUp">slideUp</button>
-    <button id="slideDown">slideDown</button>
-    <button id="slideToggle">slideToggle</button>
-   
+    <li>List Iter 1</li>
+    <li>List Iter 2</li>
+</ul>
+
+<button id="btnhide">Hide</button>
+<button id="btnshow">Show</button>
+<button id="btntoggle">Toggle</button>
+
+<button id="btnadd">Add a new list</button>
+<button id="btndelegate">Delegate</button>
+
     <script>
-    $(document).ready(function(){
-    $("div").css({
-    "border" : "2px groove red",
-    "background-color": "lightblue", "padding" : "20px",
-    "font-size": "30px",
-    });
+        $(document).ready(function (){
+            $("div").css({
+                "border" : "2px inset green",
+                "background-color" : "lightblue",
+                "padding" : "20px",
+                "color" : "blue",
+                "text-align" : "center",
+            })
 
-    $("#hidebtn").click(function(){
-    $("div").hide(3000)
-    })
-    $("#showbtn").click(function(){
-    $("div").show(3000)
-    })
-    $("#togglebtn").click(function(){
-    $("div").toggle(3000)
-    })
-    $("#slideUp").click(function(){
-    $("div").slideUp(3000)
-    })
-    $("#slideDown").click(function(){
-    $("div").slideDown(3000)
-    })
-    $("#slideToggle").click(function(){
-    $("div").slideToggle(3000)
-    })
-    
-    });
+        })
 
-
-</script>
+    </script>
 </body>
-</html>
+</html> 
