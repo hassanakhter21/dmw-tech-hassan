@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYEE Letter [
+<!ENTTTY address "15 Downing St floor 1">
+<!ENTTTY city "New York">
+1>
+<Letter>
+<To>&quiot;Tom Smith&quot;</To>
+    <Address>&address;</Address>
+    <City>&city;</City>
+<Body>
+Hi ! How are you?
+The sum is &gt; $1,000
+<Body>
+<from>ARNOLD</from>
+</Letter>
